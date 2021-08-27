@@ -1,0 +1,64 @@
+.link {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    color: #5A5B6A;
+}
+
+/* обищй цвет ссылок */
+
+.link:visited {
+    color: #5A5B6A;
+}
+
+/* толщина шрифта */
+
+.link_weight_500 {
+    font-weight: 500;
+}
+
+/* цвет при наведений на ссылки */
+
+.link:hover {
+    color: #2264D1;
+}
+
+.link_view_button {
+    font-weight: 700;
+    color: #2264D1;
+    border: 1px solid #9DC2FF;
+    padding: 5px 12px 5px 17px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    line-height: 30px;
+    /* width: 106px; */
+}
+.link_view_button:visited {
+    color: #2264D1;
+}
+
+.link_view_button:hover {
+    /* border: 1px solid transparent; */
+    border-color: transparent;
+    box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
+}
+.link_view_button_icon {
+    position: relative;
+}
+.link_view_button_icon::after {
+    position: absolute;
+    padding: 0;
+    content: "5";
+    height: 20px;
+    width: 20px;
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    top: -3px;
+    right: -3px;
+
+}

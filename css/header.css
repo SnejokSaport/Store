@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+.header__col {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+}
