@@ -31,7 +31,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     line-height: 30px;
-    /* width: 106px; */
+    /* width: 106px;  */
 }
 .link_view_button:visited {
     color: #2264D1;
