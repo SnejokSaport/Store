@@ -42,10 +42,10 @@
     border-color: transparent;
     box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
 }
-.link_view_button_icon {
+.link_view_button_label {
     position: relative;
 }
-.link_view_button_icon::after {
+.link_view_button_label::after {
     position: absolute;
     padding: 0;
     content: "5";
